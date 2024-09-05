@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nave {
+  background:linear-gradient(to right ,rgba(15, 62, 163, 0.74) ,rgba(245, 68, 14, 0.842));
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+
+    width: 50px;
+}
+
+#nave ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+#nave li {
+  display: inline-block;
+  padding: 40px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:medium;
+}
+
+a:hover{
+
+
+  color:rgb(40, 182, 187);
+}
+
+
+.buscar{
+
+  border-radius: 5px;
+  border: 1px solid #39c;
+
+}
+
+button{
+
+  background-color: rgba(128, 128, 128, 0.719);
+  border: none;  
+  color: white;
+  padding: 15px 32px;
+}
